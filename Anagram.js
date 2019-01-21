@@ -8,6 +8,7 @@ function Anagram(first,second){
         letter[first[i]] ? letter[first[i]] +=1:letter[first[i]] =1;
 
     }
+    console.log(letter);
     for(var j = 0 ;j<second.length;j++){
         if(!letter[second[j]]){
             return false;
